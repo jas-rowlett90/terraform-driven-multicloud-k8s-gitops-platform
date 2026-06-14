@@ -5,7 +5,7 @@ app = Flask(__name__)
 @app.route("/")
 def home():
     return jsonify({
-        "message": "Terraform-Driven Multi-Cloud Kubernetes Reliability & GitOps Platform",
+        "message": "This app was created for the Terraform-Driven Multi-Cloud Kubernetes Reliability & GitOps Platform project. There are no specifics to this application or additional functions input in to this function as a result.",
         "status": "running"
     })
 
