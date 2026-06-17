@@ -113,7 +113,7 @@ Grafana connected to Prometheus for platform observability.
 
 ### Reliability Automation
 
-![Reliability Report](docs/screenshots/reliability-report terminal and json.png)
+![Reliability Report](docs/screenshots/reliability_report_terminal+json.png)
 
 Python automation validates pod and deployment health and generates a structured JSON report.
 
