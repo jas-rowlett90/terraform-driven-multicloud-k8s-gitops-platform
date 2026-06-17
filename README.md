@@ -58,7 +58,7 @@ Python Automation → Reliability Validation
 
 ## Repository Structure
 
-
+```text
 .
 ├── app/
 ├── automation/
@@ -73,7 +73,7 @@ Python Automation → Reliability Validation
 │   ├── PROJECT_WALKTHROUGH.md
 │   └── screenshots/
 └── README.md
-
+```
 
 ---
 
@@ -157,19 +157,21 @@ Python automation validates pod and deployment health and generates a structured
 
 Location:
 
+```text
 automation/k8s_reliability_check.py
-
+```
 
 Run:
 
-
+```bash
 python3 automation/k8s_reliability_check.py
-
+```
 
 Generated artifact:
 
+```text
 reliability_report.json
-
+```
 
 The script validates:
 
@@ -186,15 +188,18 @@ Prometheus and Grafana are deployed using lightweight Helm installations to supp
 
 Monitoring configuration:
 
-monitoring /
+```text
+monitoring/
 ├── prometheus-values.yaml
 ├── grafana-values.yaml
 └── README.md
+```
 
 ---
 
 ## Project Phases
 
+Completed:
 
 * Phase 1 – Planning
 * Phase 2 – GitHub Structure
@@ -211,7 +216,9 @@ monitoring /
 
 Planned:
 
-* Phase 13 – Cloud Validation (AKS/EKS Execution Testing) will be done in outside branch for perrsonal testing
+* Phase 13 – Cloud Validation (AKS/EKS Execution Testing)
+
+Validation work will be performed in a dedicated cloud-validation branch to preserve the stability of the portfolio version of the project.
 
 ---
 
