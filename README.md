@@ -58,7 +58,7 @@ Python Automation → Reliability Validation
 
 ## Repository Structure
 
-```text
+
 .
 ├── app/
 ├── automation/
@@ -73,7 +73,7 @@ Python Automation → Reliability Validation
 │   ├── PROJECT_WALKTHROUGH.md
 │   └── screenshots/
 └── README.md
-```
+
 
 ---
 
@@ -186,7 +186,7 @@ Prometheus and Grafana are deployed using lightweight Helm installations to supp
 
 Monitoring configuration:
 
-monitoring/
+monitoring /
 ├── prometheus-values.yaml
 ├── grafana-values.yaml
 └── README.md
