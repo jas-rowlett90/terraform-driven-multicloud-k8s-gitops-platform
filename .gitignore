@@ -26,3 +26,6 @@ kubeconfig
 
 # Misc
 *.bak
+
+#json
+reliability_report.json
